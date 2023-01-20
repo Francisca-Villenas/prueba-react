@@ -1,0 +1,140 @@
+body {
+  background-color: #FFFBFF;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 7rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  border-bottom: #2BE2E2 solid 1.5px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2BE2E2;
+  height: 5rem;
+  color: white;
+}
+
+input {
+  width: 90%;
+  margin: 2rem;
+  height: 3rem;
+}
+
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-api {
+  border: solid 2px #4077FF;
+  padding: 1rem;
+  background-color: #F6F5F6;;
+}
+
+
+.list-months {
+  display: block;
+  width: 30rem;
+  padding-top: 5rem;
+     
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+
+.first-dayj {
+  grid-column-start: 7;
+  color: red;
+}
+
+.day-name {
+font-weight: bold;
+background-color: #E7D8EE;
+}
+
+.calendar {
+  text-align: center;
+  width: 250px;
+  padding: 0.6rem;
+}
+
+.holiday {
+  color: red;
+}
+
+.first-dayf {
+  grid-column-start: 3;   
+}
+
+.first-daya {
+  grid-column-start: 6;   
+}
+
+.first-daym {
+  grid-column-start: 1;
+  color: red;
+}
+
+.first-jun {
+  grid-column-start: 4;   
+}
+
+.first-ago {
+  grid-column-start: 2;
+}
+
+.first-sep {
+  grid-column-start: 5;
+}
+
+.first-oct {
+  grid-column-start: 7;
+}
+
+.first-nov {
+  grid-column-start: 3;
+  color: red;
+}
+
+.months {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;  
+  border: #FAE6FE solid 2px;
+  background-color: #F6F5F6;
+}
+
+.calendar-app {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.img {
+  max-width: 300px;
+  padding: 1rem;
+
+}
